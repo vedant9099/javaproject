@@ -1,0 +1,15 @@
+// Make sure your Login class has proper structure
+@WebServlet("/login")  // Proper annotation
+public class Login extends HttpServlet {
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) 
+            throws ServletException, IOException {
+        // Your login logic here
+    }
+    
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) 
+            throws ServletException, IOException {
+        // Your login page display logic here
+    }
+}
